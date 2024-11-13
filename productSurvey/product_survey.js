@@ -9,7 +9,7 @@ const submitButton=document.getElementById('submitBtn');
 submitButton.onclick = submitFeedback;
 
 function submitFeedback() {
-	alert('Thank you for your valuable feedback')	
+	alert('Thank you for your valuable feedback!')	
 	document.getElementById('userName').innerHTML = username;
     document.getElementById('userAge').innerHTML = age;
     document.getElementById('userEmail').innerHTML = email;
